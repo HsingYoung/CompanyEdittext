@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.tiyanguan.demo.companyedittext.CompanyEdittext
+        android:id="@+id/edit_cash_to_zuan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/shape_backgroud"
+        android:inputType="number"
+        android:lines="1"
+        android:paddingLeft="20dp"
+        android:hint="请输入您需要兑换的钻石数"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#E2E2E2"
+        android:textSize="14sp"
+        app:ce_text="克拉"
+        app:ce_text_color="#FFFFFF"/>
+</RelativeLayout>
